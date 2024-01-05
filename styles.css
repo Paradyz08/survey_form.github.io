@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+#title {
+  color: #0000ff;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-weight: 600;
+}
+
+#survey-form {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px;
+  flex-direction: column;
+  background: linear-gradient( to left, #ffff00, #008000)
+}
+
+#name-label {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#name {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#email-label {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#email {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#number-label {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#number {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.dropdown-title {
+  color: #ffff00;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+#dropdown {
+  width: 100%;
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.button-boxes {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.title {
+  color: #00ffff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text-content {
+  color: #fff;
+  font-size: 20px;
+}
+
+#comments {
+  width: 100%;
+}
+
+#submit {
+  width: fit-content;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #00ffff;
+  border: 2px solid #000;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+@media screen max-width: 400px{
+  
+}
